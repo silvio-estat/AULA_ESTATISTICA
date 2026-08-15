@@ -222,9 +222,12 @@ sempre foi a estatística dos dados e da avaliação.**
 
 | Dia | Módulos | Situação |
 |---|---|---|
-| Dia 1 | M1, M2, M3 | ✅ prontos e revisados — falta só o **fechamento de IA** no M3 |
-| Dia 2 | M4, M5, M6 | ⬜ a produzir |
-| Dia 3 | M7, M8, M9 | ⬜ a produzir |
+| Dia 1 | M1, M2, M3 | ✅ prontos e revisados (+ fechamento de IA acrescentado ao M3) |
+| Dia 2 | M4, M5, M6 | ✅ produzidos — **aguardando revisão** |
+| Dia 3 | M7, M8, M9 | ✅ produzidos — **aguardando revisão** |
+
+Todos os notebooks foram **executados** e trazem as saídas e gráficos gravados
+(202 células de texto, 116 de código, 35 gráficos, nenhum erro de execução).
 
 **Ambiente:** `setup_ambiente.sh` (Linux/macOS) ou `setup_ambiente.ps1` (Windows) criam a `.venv`,
 instalam o `requirements.txt` e registram o kernel **"Python (ESTAT_BASICA)"**.
